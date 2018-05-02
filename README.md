@@ -50,11 +50,11 @@ Explain how you plan to save data and query the tables.
   * Search for a data entry using the query operation.
 * Task 2:
   * Show the DynamoDB tables you created.
-	* Explain the `saveSessionTurn`, `saveUserData`, `getUserData` functions in `lambdaFunc/index.js`.
-	* Make sure you know how to use corresponding APIs in Python.
+  * Explain the `saveSessionTurn`, `saveUserData`, `getUserData` functions in `lambdaFunc/index.js`.
+  * Make sure you know how to use corresponding APIs in Python.
 * Task 3 (Optional):
-	* Explain your plan about using DynamoDB tables for your project.
-	* Create these DynamoDB tables.
+  * Explain your plan about using DynamoDB tables for your project.
+  * Create these DynamoDB tables.
 
 ## Lab Report
 * Explain the `saveSessionTurn`, `saveUserData`, `getUserData` functions in `lambdaFunc/index.js`.
