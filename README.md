@@ -7,7 +7,7 @@ Course Webpage: [EE596 -- Conversational Artificial Intelligence](https://hao-fa
 for a quick walkthrough on DynamoDB.
 
 ## Taks 2: Save conversation logs and user information in DynamoDB
-* Now, create a DynamoDB table for storing conversation logs
+* Create a DynamoDB table for storing conversation logs
 	* Table Name: EE596Lab3Conversations
 	* Partition Key: sessionId (String)
 	* Sort Key: turnIdx (Number)
@@ -24,7 +24,7 @@ for a quick walkthrough on DynamoDB.
   $ cd lambdaFunc
   $ zip -r ../lambdaFunc.zip *
   ```
-	You may also use the script `upload_lambda_func.sh`.
+  You may also use the script `upload_lambda_func.sh`.
 * You need to grant DynamoDB access to your Lambda function.
 	* In your AWS Management Console, go to `IAM` dashboard.  
 	* In the section `Roles`, you can find the role you created for your lambda function (`lambda_basic_execution`).
@@ -59,10 +59,9 @@ Explain how you plan to save data and query the tables.
 
 ## Lab Report
 * Explain the `saveSessionTurn`, `saveUserData`, `getUserData` functions in `lambdaFunc/index.js`.
-* Explain the DynamoDB tables you plan to use for your project. Describe the
-	partion key, the sort key (if any), and individual items.
+* Explain the DynamoDB tables you plan to use for your project. Describe the partion key, the sort key (if any), and individual items.
 
 ## Further Readings
-* Secondary Index on tables
-	* Global secondary index
-	* Local secondary index
+* [[Python and DynamoDB]](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.html)
+* [[Improving Data Access with Secondary Indexes]](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html)
+
