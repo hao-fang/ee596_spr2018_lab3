@@ -59,7 +59,7 @@ Explain how you plan to save data and query the tables.
 
 ## Lab Report
 * Explain the `saveSessionTurn`, `saveUserData`, `getUserData` functions in `lambdaFunc/index.js`.
-* Explain the DynamoDB tables you plan to use for your project. Describe the partion key, the sort key (if any), and individual items.
+* Explain the DynamoDB tables you plan to use for your project. Describe the partion key, the sort key (if any), and individual attributes.
 
 ## Further Reading
 * [[Python and DynamoDB]](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.html)
