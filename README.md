@@ -47,8 +47,7 @@ Explain how you plan to save data and query the tables.
 ## Lab Checkoff
 * Task 1:
   * Show the DynamoDB table you created.
-	* Search for a data entry using the query operation.
-	* What's the difference between "Scan" and "Query"?
+  * Search for a data entry using the query operation.
 * Task 2:
   * Show the DynamoDB tables you created.
 	* Explain the `saveSessionTurn`, `saveUserData`, `getUserData` functions in `lambdaFunc/index.js`.
