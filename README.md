@@ -8,11 +8,11 @@ for a quick walkthrough on DynamoDB.
 
 ## Taks 2: Save conversation logs and user information in DynamoDB
 * Create a DynamoDB table for storing conversation logs
-	* Table Name: EE596Lab3Conversations
+	* Table Name: EE596Lab3ChatData
 	* Partition Key: sessionId (String)
 	* Sort Key: turnIdx (Number)
 * Create another DynamoDB table for storing user information
-	* Table Name: EE596Lab3Users
+	* Table Name: EE596Lab3UserData
 	* Partition Key: userId (String)
 * Clone the repository
   ```
@@ -34,7 +34,7 @@ for a quick walkthrough on DynamoDB.
 	* Click the `lambda_basic_execution` role, and choose `Attach policy`.
 	* Search for `AmazonDynamoDBFullAccess`, and attach it to the role.
 	* This allows your lambda function to access your DynamoDB tables.
-* Change your Alexa Skill's Endpoint ARN to this new Lambda Function.
+* Change your Lab 2 Alexa Skill's Endpoint ARN to this new Lambda Function.
 * Now talk to your Alexa Skill and monitor the two DynamoDB tables.
 
 ## Task 3: (Optional) Design and create DynamoDB tables for your project
